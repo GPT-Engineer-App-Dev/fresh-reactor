@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { supabase } from '../integrations/supabase/index.js';
 import { Box, Button, Container, FormControl, FormLabel, Heading, Input, Text, VStack } from '@chakra-ui/react';
 import { useSupabaseAuth, SupabaseAuthUI } from '../integrations/supabase/auth';
 import { useNavigate } from 'react-router-dom';
